@@ -1,0 +1,91 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #290628;
+}
+.heads{
+    height: 500px;
+    width: auto;
+    background-image: url('img/banner/PicsArt_08-24-04.39.06.jpg');
+    background-size: cover;
+    
+}
+.imgs{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+    background-image: url('img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+
+}
+
+
+
+
+/* media query */
+
+
+@media only screen and (max-width: 560px) {
+    .heads{
+        height: 190px;
+        width: 100%;
+    }
+  }
+
+
+  /* / */
+
+  @media only screen and (max-width: 532px) {
+    .heads{
+        height: 170px;
+        width: 100%;
+    }
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .heads{
+        height: 140px;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 384px) {
+    .heads{
+        height: 120px;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 315px) {
+    .heads{
+        height: 100px;
+        width: 100%;
+    }
+  }
+
+
+
+
+  /* imges */
+
+  @media only screen and (max-width: 514px) {
+    .img{
+        margin: 10px;
+        height: 300px;
+        width: 350px;
+    }
+  }
